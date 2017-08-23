@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+<style type="text/css">@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,300);</style>
+<style>
+  .input {
+    border: 2px solid #e20018;
+    width: 384px;
+    height: 45px;
+    background-color: #0b1821;
+    border-radius: 3px;
+    padding-left: 15px;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: white;
+
+  }
+  .input-label {
+    position: absolute;
+    color: #c1c4c8;
+    left: 455px;
+    top: -13px;
+    background-color: #0b1821;
+    padding-left: 6px;
+    padding-right: 6px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .button {
+    font-family: 'Roboto Slab', serif;
+    background-color: #B32024;
+    padding: 1em 4em;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+    border: none;
+    display: inline-block;
+    font-size: inherit;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  .forgot-pass:hover {
+    color: red;
+  }
+</style>
+</head>
+<body style="background-color: #0b1821">
+  <div class="container" style="font-family: 'Roboto Slab';">
+    <div style="text-align: center; margin-top: 50px; color: white; margin-bottom: 30px;">
+      <img src="RP_Logo.svg" style="height: 70px; width: 70px;">
+      <span style="font-size: 24px; display:block;">reflections projections</span>
+    </div>
+
+    <div style="text-align: center; color: white;">
+      <h1>Login</h1>
+      <div class="username" style=" position: relative;">
+        <input type="text" class="input">
+        <span class="input-label">Username</span>
+      </div>
+
+      <div class="password" style=" position: relative;">
+        <input type="text" class="input">
+        <span class="input-label">Password</span>
+      </div>
+
+      <div class="forgot-pass">
+        <a href="#" style="text-decoration: none; color: #ffffff;">Forgot Password?</a> <br>
+
+      </div>
+    <!--  <a href="#" style="text-decoration: none; color: #ffffff;" class="forgot-pass">Forgot Password?</a> <br>-->
+      <a href="#" class="button">Sign In</a>
+    </div>
+  </div>
+
+
+
+</body>
