@@ -1,0 +1,41 @@
+.input {
+  border: 2px solid #e20018;
+  width: 384px;
+  height: 45px;
+  background-color: #0b1821;
+  border-radius: 3px;
+  padding-left: 15px;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: white;
+
+}
+.input-label {
+  position: absolute;
+  color: #c1c4c8;
+  left: 578px;
+  top: -13px;
+  background-color: #0b1821;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button {
+  font-family: 'Roboto Slab', serif;
+  background-color: #B32024;
+  padding: 1em 4em;
+  border-radius: 5px;
+  color: white;
+  letter-spacing: 2px;
+  border: none;
+  display: inline-block;
+  font-size: inherit;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.forgot-pass:hover {
+  color: red;
+}
