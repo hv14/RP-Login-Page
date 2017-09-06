@@ -1,3 +1,35 @@
+body {
+	background-color: #0b1821;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.container {
+	font-family: 'Roboto Slab';
+}
+.logo_container {
+	text-align: center;
+	margin-top: 50px;
+	color: white;
+	margin-bottom: 30px;
+}
+.logo_text {
+	font-size: 24px;
+	display:block;
+}
+
+.login_container {
+	text-align: center;
+	color: white;
+}
+
+.username, .password {
+	position: relative;
+}
+.forgot-pass a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
 .input {
   border: 2px solid #e20018;
   width: 384px;
@@ -24,7 +56,6 @@
   font-size: 18px;
   font-weight: 500;
 }
-
 .button {
   font-family: 'Roboto Slab', serif;
   background-color: #B32024;
