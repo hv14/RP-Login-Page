@@ -39,3 +39,6 @@
 .forgot-pass:hover {
   color: red;
 }
+#password-empty-text {
+  color: red;
+}

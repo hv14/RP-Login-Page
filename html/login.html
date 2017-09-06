@@ -4,7 +4,7 @@
 <style type="text/css">@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,300);</style>
 <link rel="stylesheet" href="../styles/login.css">
 </head>
-<body background="../assets/background-overlay.svg" style="background-color: #0b1821; background-repeat:no-repeat; background-size: 100%;">
+<body background="../assets/background-overlay.svg" style="background-color: #0b1821; background-repeat:no-repeat; background-size: 100%" onload="initializeInitHandler()">
   <div class="container" style="font-family: 'Roboto Slab';">
     <div style="text-align: center; margin-top: 50px; color: white; margin-bottom: 30px;">
       <img src="../assets/RP_Logo.svg" style="height: 70px; width: 70px;">
@@ -14,13 +14,14 @@
     <div style="text-align: center; color: white;">
       <h1 style="margin-bottom 30px;">Login</h1>
       <div class="username" style=" position: relative;">
-        <input type="text" class="input">
+        <input type="text" class="input" id="usernameInput">
         <span class="input-label">Username</span>
       </div>
 
       <div class="password" style=" position: relative;">
-        <input type="password" class="input">
+        <input type="password" class="input" id="passwordInput">
         <span class="input-label">Password</span>
+        <p id="password-empty-text" style="visibility:hidden;">Your password must not be empty!</p>
       </div>
 
       <div class="forgot-pass">
@@ -28,10 +29,12 @@
 
       </div>
     <!--  <a href="#" style="text-decoration: none; color: #ffffff;" class="forgot-pass">Forgot Password?</a> <br>-->
-      <a href="#" class="button">Sign In</a>
+      <a href="#" class="button" id="Sign-In-Button">Sign In</a>
     </div>
   </div>
 
 
 
 </body>
+<script type="text/javascript" src="../assets/buttonControl.js"></script>
+
