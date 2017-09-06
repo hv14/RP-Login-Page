@@ -13,8 +13,8 @@
 .input-label {
   position: absolute;
   color: #c1c4c8;
-  left: 578px;
   top: -13px;
+  margin-left: 12px;
   background-color: #0b1821;
   padding-left: 6px;
   padding-right: 6px;
