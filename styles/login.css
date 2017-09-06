@@ -9,7 +9,9 @@
   margin-bottom: 30px;
   color: white;
   outline: none;
-
+}
+.input:focus {
+	border-color: #33f;
 }
 .input-label {
   position: absolute;
