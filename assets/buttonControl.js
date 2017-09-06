@@ -9,7 +9,6 @@ var ids = [
 ];
 var onLoads = {
     "Sign-In-Button":((event) => {
-        console.log('in this bitch');
         var passLength = initHandler["passwordInput"].value.length;
         var emptyText = initHandler["password-empty-text"]
         if (passLength < 1 && !isElementVisible(emptyText)) {
@@ -22,7 +21,7 @@ var onLoads = {
 
 function initializeInitHandler() {
     for (var i = 0; i < ids.length; i++) {
-        console.log(ids[i])
+        console.log(`Initializing initHandler[${ids[i]}]`);
         initHandler[ids[i]] = document.getElementById(ids[i]);
         initializeOnClick(ids[i]);
     }
@@ -43,7 +42,7 @@ function toggleElementVisibility(element) {
 }
 
 function initializeOnClick(elementID) {
-    console.log(elementID);
+    console.log(`Initializing ${elementID}.onClick()`);
     initHandler[elementID].onclick = onLoads[elementID];
 }
 
